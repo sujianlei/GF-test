@@ -1,0 +1,35 @@
+<?php
+$content  = '<noscript>a;sldjf;aslkdjf;alskjdf;laksjdf;laskjdf;lakjsd;fljasdlkf\
+asdfajskdlfja;lskdjf;asdf\
+asdf;aksjdf;lajsd\
+asdfa;sdlfkjasd\
+</noscript>\
+first out.
+alskdjf;lasjdfl;aksjdf\
+asdlfkja;sldkjfas\
+fas;dkjf;asdf\
+asd;f;asldkf\
+asdfa;sldkfj\
+<noscript>\
+a;slkdjf;asd\
+asdlfjaj;sdljkf\
+asdlkfja;sldjf\
+asdlkfja;sldjf\
+</noscript>\
+second out
+a;lsdkjf;askdjf\
+<noscript>\
+';
+$tagName  = '<noscript>';
+$startPos = strpos($content, $tagName);
+while ($startPos !== false) {
+    $endPos = strpos($content, '</noscript>', $startPos);
+    if ($endPos === false) {
+        break;
+    }
+    $content = substr($content, 0, $startPos) . substr($content, $endPos + 11);
+    $startPos = strpos($content, $tagName, $startPos);
+}
+        
+print $content;
+

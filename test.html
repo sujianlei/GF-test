@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+<html>
+<head>
+    <link href="http://na10.salesforce.com/sCSS/27.0/sprites/1359675046000/PortalDefault/default/gc/elements.css" rel="stylesheet" type="text/css"/>
+    <link href="http://na10.salesforce.com/sCSS/27.0/sprites/1359675046000/PortalDefault/default/gc/common.css" rel="stylesheet" type="text/css"/>
+    <link href="http://na10.salesforce.com/sCSS/27.0/sprites/1359675046000/PortalDefault/default/gc/extended.css" rel="stylesheet" type="text/css"/>
+    <link href="http://na10.salesforce.com/sCSS/27.0/1360794709000/PortalDefault/00DA00000009M15/060F000000058AB/gc/portal.css" rel="stylesheet" type="text/css"/>
+    
+    <script type="text/javascript"
+            src="http://na10.salesforce.com/static/101812/js/login.js"></script>
+    <style type="text/css">
+        #loginBox {
+            margin: 50px;
+        }
+
+        .username, .pw {
+            width: 175px;
+        }
+    </style>
+    <title>Secure Customer Login
+    </title>
+</head>
+<body>
+
+
+<table id="loginBox" class="bPageBlock" border="0" cellpadding="0"
+       cellspacing="0">
+    <tr valign="top">
+        <td>
+            <form name="login" action="https://na10.salesforce.com/secur/login_portal.jsp" method="POST"
+                  base_target="_top"><input type="hidden"
+                                            name="startURL" value=""> <input
+                    type="hidden" name="loginURL" value="">
+                <input type="hidden" name="useSecure"
+                       value="true"> <input
+                        type="hidden" name="orgId" value="00DA00000009M15"> <input
+                        type="hidden" name="portalId" value="060F000000058AB"> <input
+                        type="hidden" name="loginType"
+                        value="3"> <input
+                        type="hidden" name="action"
+                        value="loginAction">
+
+                <div class="pbHeader">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="pbTitle">
+                                <h2>Secure Customer Login
+                                </h2>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="pbBody">
+                    <div class="errorMsg">
+                        Please enter your User Name.
+                    </div>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="portalLoginLabel"><label for="username">User Name:
+                            </label></td>
+                            <td><input
+                                    autocomplete="on" type="text"
+                                id="username" NAME="un" size="25" maxlength="80"
+                                value="rsu@perforce.com" class="username">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="portalLoginLabel"><label for="password">Password:
+                            </label></td>
+                            <td><input
+                                    autocomplete="on"
+                                            type="password" id="password" name="pw" size="25"
+                                maxlength="80" class="pw">
+                            </td>
+                        </tr>
+                    </table>
+                    <div><a id="forgotPassword"
+                            href="https://na10.salesforce.com/secur/forgotpasswordp.jsp?orgId=00DA00000009M15&portalId=060F000000058AB&pLu=%2Fsecur%2Flogin_portal.jsp">Forgot your password?
+                    </a>
+                    </div>
+                </div>
+                <div class="pbBottomButtons">
+                    <table border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="pbTitle"><img width="1" height="1" title=""
+                                                     class="minWidth" alt="" src="http://na10.salesforce.com/s.gif"></td>
+                            <td class="pbButtonb"><input type="submit" class="btn"
+                                                         value="Login"></td>
+                        </tr>
+                    </table>
+                </div>
+            </form>
+        </td>
+
+        
+
+        <div class="pbFooter secondaryPalette"><div class="bg"></div></div>
+        </td>
+    </tr>
+</table>
+
+
+</body>
+</html>
+

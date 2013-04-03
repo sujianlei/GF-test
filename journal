@@ -1,0 +1,259 @@
+@pv@ 1 @db.counters@ @upgrade@ @1@ 
+@ex@ 14064 1332516356
+@rv@ 1 @db.counters@ @upgrade@ @2@ 
+@ex@ 14064 1332516356
+@rv@ 1 @db.counters@ @upgrade@ @3@ 
+@ex@ 14064 1332516356
+@rv@ 1 @db.counters@ @upgrade@ @4@ 
+@ex@ 14064 1332516356
+@rv@ 1 @db.counters@ @upgrade@ @5@ 
+@pv@ 1 @db.depot@ @depot@ 0 @@ @depot/...@ 
+@pv@ 6 @db.domain@ @depot@ 100 @@ @@ @@ @@ @@ 1332516356 1332516356 0 @Default depot@ @@ @@ 0 
+@ex@ 14064 1332516356
+@rv@ 1 @db.counters@ @upgrade@ @6@ 
+@ex@ 14064 1332516356
+@rv@ 1 @db.counters@ @upgrade@ @7@ 
+@ex@ 14064 1332516356
+@rv@ 1 @db.counters@ @upgrade@ @8@ 
+@ex@ 14064 1332516356
+@rv@ 1 @db.counters@ @upgrade@ @9@ 
+@rv@ 1 @db.counters@ @upgrade@ @10@ 
+@ex@ 14064 1332516356
+@rv@ 1 @db.counters@ @upgrade@ @11@ 
+@rv@ 1 @db.counters@ @upgrade@ @12@ 
+@ex@ 14064 1332516356
+@rv@ 1 @db.counters@ @upgrade@ @13@ 
+@rv@ 1 @db.counters@ @upgrade@ @14@ 
+@rv@ 1 @db.counters@ @upgrade@ @15@ 
+@ex@ 14064 1332516356
+@rv@ 1 @db.counters@ @upgrade@ @16@ 
+@ex@ 14064 1332516356
+@rv@ 1 @db.counters@ @upgrade@ @17@ 
+@rv@ 1 @db.counters@ @upgrade@ @18@ 
+@ex@ 14064 1332516356
+@rv@ 1 @db.counters@ @upgrade@ @19@ 
+@ex@ 14064 1332516356
+@rv@ 1 @db.counters@ @upgrade@ @20@ 
+@rv@ 1 @db.counters@ @upgrade@ @21@ 
+@rv@ 1 @db.counters@ @upgrade@ @22@ 
+@rv@ 1 @db.counters@ @upgrade@ @23@ 
+@ex@ 14064 1332516356
+@nx@ 7 1332516358 @32@ 0 0 0 0 0 @2222@ @.@ @@ @@ @@ 
+@ex@ 14065 1332516358
+@pv@ 4 @db.user@ @perforce@ @perforce@@test-dir@ @@ 1332516418 1332516418 @perforce@ @@ 0 @@ 0 0 0 
+@ex@ 14081 1332516418
+@rv@ 4 @db.user@ @perforce@ @perforce@@test-dir@ @@ 1332516418 1332516418 @perforce@ @@ 0 @@ 0 0 0 
+@ex@ 14080 1332516418
+@pv@ 1 @db.view@ @test-dir@ 0 0 @//test-dir/...@ @//depot/...@ 
+@ex@ 14080 1332516418
+@pv@ 6 @db.domain@ @test-dir@ 99 @fire@ @/home/ray/workspace@ @@ @@ @perforce@ 1332516418 1332516418 0 @Created by perforce.
+@ @@ @@ 0 
+@ex@ 14080 1332516418
+@pv@ 9 @db.working@ @//test-dir/categories/p1/index@ @//depot/categories/p1/index@ @test-dir@ @perforce@ 0 1 0 0 0 0 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 
+@pv@ 2 @db.locks@ @//depot/categories/p1/index@ @test-dir@ @perforce@ 0 0 0 
+@pv@ 9 @db.working@ @//test-dir/categories/p2/index@ @//depot/categories/p2/index@ @test-dir@ @perforce@ 0 1 0 0 0 0 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 
+@pv@ 2 @db.locks@ @//depot/categories/p2/index@ @test-dir@ @perforce@ 0 0 0 
+@pv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 0 1 0 0 0 0 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 
+@pv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 0 0 0 
+@ex@ 14083 1332516418
+@pv@ 1 @db.counters@ @change@ @1@ 
+@pv@ 2 @db.change@ 1 1 @test-dir@ @perforce@ 1332516418 0 @@ @@ 
+@pv@ 0 @db.desc@ 1 @@ 
+@pv@ 2 @db.changex@ 1 1 @test-dir@ @perforce@ 1332516418 0 @@ @@ 
+@rv@ 9 @db.working@ @//test-dir/categories/p1/index@ @//depot/categories/p1/index@ @test-dir@ @perforce@ 0 1 0 0 0 1 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 
+@rv@ 2 @db.locks@ @//depot/categories/p1/index@ @test-dir@ @perforce@ 0 0 1 
+@rv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 0 1 0 0 0 1 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 0 0 1 
+@rv@ 9 @db.working@ @//test-dir/categories/p2/index@ @//depot/categories/p2/index@ @test-dir@ @perforce@ 0 1 0 0 0 1 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/index@ @test-dir@ @perforce@ 0 0 1 
+@ex@ 14085 1332516418
+@rv@ 9 @db.working@ @//test-dir/categories/p1/index@ @//depot/categories/p1/index@ @test-dir@ @perforce@ 0 1 0 0 0 1 0 1 00000000000000000000000000000000 -1 0 0 0 @@ 
+@rv@ 2 @db.locks@ @//depot/categories/p1/index@ @test-dir@ @perforce@ 0 1 1 
+@rv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 0 1 0 0 0 1 0 1 00000000000000000000000000000000 -1 0 0 0 @@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 0 1 1 
+@rv@ 9 @db.working@ @//test-dir/categories/p2/index@ @//depot/categories/p2/index@ @test-dir@ @perforce@ 0 1 0 0 0 1 0 1 00000000000000000000000000000000 -1 0 0 0 @@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/index@ @test-dir@ @perforce@ 0 1 1 
+@ex@ 14085 1332516418
+@rv@ 9 @db.working@ @//test-dir/categories/p1/index@ @//depot/categories/p1/index@ @test-dir@ @perforce@ 0 1 0 0 0 1 1332516397 1 D41D8CD98F00B204E9800998ECF8427E 0 0 0 0 @@ 
+@rv@ 2 @db.locks@ @//depot/categories/p1/index@ @test-dir@ @perforce@ 0 1 1 
+@rv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 0 1 0 0 0 1 1332516397 1 D41D8CD98F00B204E9800998ECF8427E 0 0 0 0 @@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 0 1 1 
+@rv@ 9 @db.working@ @//test-dir/categories/p2/index@ @//depot/categories/p2/index@ @test-dir@ @perforce@ 0 1 0 0 0 1 1332516397 1 D41D8CD98F00B204E9800998ECF8427E 0 0 0 0 @@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/index@ @test-dir@ @perforce@ 0 1 1 
+@ex@ 14085 1332516419
+@dv@ 2 @db.changex@ 1 1 @test-dir@ @perforce@ 1332516419 1 @@ @//depot/categories/p...@ 
+@rv@ 2 @db.change@ 1 1 @test-dir@ @perforce@ 1332516419 1 @@ @//depot/categories/p...@ 
+@pv@ 2 @db.have@ @//test-dir/categories/p1/index@ @//depot/categories/p1/index@ 1 0 
+@pv@ 9 @db.rev@ @//depot/categories/p1/index@ 1 0 0 1 1332516419 1332516397 D41D8CD98F00B204E9800998ECF8427E 0 0 0 @//depot/categories/p1/index@ @1.1@ 0 
+@pv@ 9 @db.revhx@ @//depot/categories/p1/index@ 1 0 0 1 1332516419 1332516397 D41D8CD98F00B204E9800998ECF8427E 0 0 0 @//depot/categories/p1/index@ @1.1@ 0 
+@pv@ 0 @db.revcx@ 1 @//depot/categories/p1/index@ 1 0 
+@dv@ 2 @db.locks@ @//depot/categories/p1/index@ @test-dir@ @perforce@ 0 1 1 
+@dv@ 9 @db.working@ @//test-dir/categories/p1/index@ @//depot/categories/p1/index@ @test-dir@ @perforce@ 0 1 0 0 0 1 1332516397 1 D41D8CD98F00B204E9800998ECF8427E 0 0 0 0 @@ 
+@pv@ 2 @db.have@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ 1 0 
+@pv@ 9 @db.rev@ @//depot/categories/p2/c/index@ 1 0 0 1 1332516419 1332516397 D41D8CD98F00B204E9800998ECF8427E 0 0 0 @//depot/categories/p2/c/index@ @1.1@ 0 
+@pv@ 9 @db.revhx@ @//depot/categories/p2/c/index@ 1 0 0 1 1332516419 1332516397 D41D8CD98F00B204E9800998ECF8427E 0 0 0 @//depot/categories/p2/c/index@ @1.1@ 0 
+@pv@ 0 @db.revcx@ 1 @//depot/categories/p2/c/index@ 1 0 
+@dv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 0 1 1 
+@dv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 0 1 0 0 0 1 1332516397 1 D41D8CD98F00B204E9800998ECF8427E 0 0 0 0 @@ 
+@pv@ 2 @db.have@ @//test-dir/categories/p2/index@ @//depot/categories/p2/index@ 1 0 
+@pv@ 9 @db.rev@ @//depot/categories/p2/index@ 1 0 0 1 1332516419 1332516397 D41D8CD98F00B204E9800998ECF8427E 0 0 0 @//depot/categories/p2/index@ @1.1@ 0 
+@pv@ 9 @db.revhx@ @//depot/categories/p2/index@ 1 0 0 1 1332516419 1332516397 D41D8CD98F00B204E9800998ECF8427E 0 0 0 @//depot/categories/p2/index@ @1.1@ 0 
+@pv@ 0 @db.revcx@ 1 @//depot/categories/p2/index@ 1 0 
+@dv@ 2 @db.locks@ @//depot/categories/p2/index@ @test-dir@ @perforce@ 0 1 1 
+@dv@ 9 @db.working@ @//test-dir/categories/p2/index@ @//depot/categories/p2/index@ @test-dir@ @perforce@ 0 1 0 0 0 1 1332516397 1 D41D8CD98F00B204E9800998ECF8427E 0 0 0 0 @@ 
+@ex@ 14085 1332516419
+@pv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 1 1 0 0 1 0 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 
+@pv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 1 0 0 
+@ex@ 14087 1332516432
+@pv@ 1 @db.resolve@ @//test-dir/categories/p1/c/index@ @//depot/categories/p2/c/index@ 0 1 0 0 14 2 @//depot/categories/p2/c/index@ 1 
+@rv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 1 1 0 0 7 0 0 0 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p1/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 7 0 0 
+@pv@ 9 @db.working@ @//test-dir/categories/p1/c/index@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 1 1 0 0 8 0 0 0 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p2/c/index@ 
+@pv@ 2 @db.locks@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 8 0 0 
+@ex@ 14089 1332516432
+@rv@ 1 @db.counters@ @change@ @2@ 
+@pv@ 2 @db.change@ 2 2 @test-dir@ @perforce@ 1332516432 0 @@ @@ 
+@pv@ 0 @db.desc@ 2 @@ 
+@pv@ 2 @db.changex@ 2 2 @test-dir@ @perforce@ 1332516432 0 @@ @@ 
+@rv@ 9 @db.working@ @//test-dir/categories/p1/c/index@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 1 1 0 0 8 2 0 0 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p2/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 8 0 2 
+@rv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 1 1 0 0 7 2 0 0 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p1/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 7 0 2 
+@ex@ 14091 1332516432
+@rv@ 9 @db.working@ @//test-dir/categories/p1/c/index@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 1 1 0 0 8 2 0 1 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p2/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 8 1 2 
+@rv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 1 1 0 0 7 2 0 1 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p1/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 7 1 2 
+@ex@ 14091 1332516433
+@rv@ 9 @db.working@ @//test-dir/categories/p1/c/index@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 1 1 0 0 8 2 0 1 D41D8CD98F00B204E9800998ECF8427E -1 0 0 0 @//depot/categories/p2/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 8 1 2 
+@ex@ 14091 1332516433
+@pv@ 0 @db.integed@ @//depot/categories/p1/c/index@ @//depot/categories/p2/c/index@ 0 1 0 1 14 2 
+@pv@ 0 @db.integed@ @//depot/categories/p2/c/index@ @//depot/categories/p1/c/index@ 0 1 0 1 15 2 
+@dv@ 1 @db.resolve@ @//test-dir/categories/p1/c/index@ @//depot/categories/p2/c/index@ 0 1 0 0 14 2 @//depot/categories/p2/c/index@ 1 
+@dv@ 2 @db.changex@ 2 2 @test-dir@ @perforce@ 1332516433 1 @@ @//depot/categories/p...@ 
+@rv@ 2 @db.change@ 2 2 @test-dir@ @perforce@ 1332516433 1 @@ @//depot/categories/p...@ 
+@pv@ 2 @db.have@ @//test-dir/categories/p1/c/index@ @//depot/categories/p1/c/index@ 1 0 
+@pv@ 9 @db.rev@ @//depot/categories/p1/c/index@ 1 0 8 2 1332516433 1332516397 D41D8CD98F00B204E9800998ECF8427E 0 0 1 @//depot/categories/p2/c/index@ @1.1@ 0 
+@pv@ 9 @db.revhx@ @//depot/categories/p1/c/index@ 1 0 8 2 1332516433 1332516397 D41D8CD98F00B204E9800998ECF8427E 0 0 1 @//depot/categories/p2/c/index@ @1.1@ 0 
+@pv@ 0 @db.revcx@ 2 @//depot/categories/p1/c/index@ 1 8 
+@dv@ 2 @db.locks@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 8 1 2 
+@dv@ 9 @db.working@ @//test-dir/categories/p1/c/index@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 1 1 0 0 8 2 0 1 D41D8CD98F00B204E9800998ECF8427E -1 0 0 0 @//depot/categories/p2/c/index@ 
+@dv@ 2 @db.have@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ 2 0 
+@pv@ 9 @db.rev@ @//depot/categories/p2/c/index@ 2 0 7 2 1332516433 0 00000000000000000000000000000000 -1 0 0 @//depot/categories/p2/c/index@ @1.1@ 0 
+@dv@ 9 @db.revhx@ @//depot/categories/p2/c/index@ 2 0 7 2 1332516433 0 00000000000000000000000000000000 -1 0 0 @//depot/categories/p2/c/index@ @1.1@ 0 
+@pv@ 9 @db.revdx@ @//depot/categories/p2/c/index@ 2 0 7 2 1332516433 0 00000000000000000000000000000000 -1 0 0 @//depot/categories/p2/c/index@ @1.1@ 0 
+@pv@ 0 @db.revcx@ 2 @//depot/categories/p2/c/index@ 2 7 
+@dv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 7 1 2 
+@dv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 1 1 0 0 7 2 0 1 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p1/c/index@ 
+@pv@ 0 @db.archmap@ @//depot/categories/p1/...@ @//depot/categories/p2/...@ 
+@ex@ 14091 1332516433
+@pv@ 9 @db.working@ @//test-dir/categories/p1/c/index@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 1 1 0 0 1 0 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 
+@pv@ 2 @db.locks@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 1 0 0 
+@ex@ 14093 1332516465
+@pv@ 1 @db.resolve@ @//test-dir/categories/p2/c/index@ @//depot/categories/p1/c/index@ 0 1 0 0 14 2 @//depot/categories/p1/c/index@ 1 
+@rv@ 9 @db.working@ @//test-dir/categories/p1/c/index@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 1 1 0 0 7 0 0 0 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p2/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 7 0 0 
+@pv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 1 1 0 0 8 0 0 0 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p1/c/index@ 
+@pv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 8 0 0 
+@ex@ 14095 1332516465
+@rv@ 1 @db.counters@ @change@ @3@ 
+@pv@ 2 @db.change@ 3 3 @test-dir@ @perforce@ 1332516465 0 @@ @@ 
+@pv@ 0 @db.desc@ 3 @@ 
+@pv@ 2 @db.changex@ 3 3 @test-dir@ @perforce@ 1332516465 0 @@ @@ 
+@rv@ 9 @db.working@ @//test-dir/categories/p1/c/index@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 1 1 0 0 7 3 0 0 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p2/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 7 0 3 
+@rv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 1 1 0 0 8 3 0 0 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p1/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 8 0 3 
+@ex@ 14099 1332516465
+@rv@ 9 @db.working@ @//test-dir/categories/p1/c/index@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 1 1 0 0 7 3 0 1 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p2/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 7 1 3 
+@rv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 1 1 0 0 8 3 0 1 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p1/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 8 1 3 
+@ex@ 14099 1332516465
+@rv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 1 1 0 0 8 3 0 1 D41D8CD98F00B204E9800998ECF8427E -1 0 0 0 @//depot/categories/p1/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 8 1 3 
+@ex@ 14099 1332516465
+@pv@ 0 @db.integed@ @//depot/categories/p2/c/index@ @//depot/categories/p1/c/index@ 0 1 2 3 14 3 
+@pv@ 0 @db.integed@ @//depot/categories/p1/c/index@ @//depot/categories/p2/c/index@ 2 3 0 1 15 3 
+@dv@ 1 @db.resolve@ @//test-dir/categories/p2/c/index@ @//depot/categories/p1/c/index@ 0 1 0 0 14 2 @//depot/categories/p1/c/index@ 1 
+@dv@ 2 @db.changex@ 3 3 @test-dir@ @perforce@ 1332516465 1 @@ @//depot/categories/p...@ 
+@rv@ 2 @db.change@ 3 3 @test-dir@ @perforce@ 1332516465 1 @@ @//depot/categories/p...@ 
+@dv@ 2 @db.have@ @//test-dir/categories/p1/c/index@ @//depot/categories/p1/c/index@ 2 0 
+@pv@ 9 @db.rev@ @//depot/categories/p1/c/index@ 2 0 7 3 1332516465 0 00000000000000000000000000000000 -1 0 1 @//depot/categories/p2/c/index@ @1.1@ 0 
+@dv@ 9 @db.revhx@ @//depot/categories/p1/c/index@ 2 0 7 3 1332516465 0 00000000000000000000000000000000 -1 0 1 @//depot/categories/p2/c/index@ @1.1@ 0 
+@pv@ 9 @db.revdx@ @//depot/categories/p1/c/index@ 2 0 7 3 1332516465 0 00000000000000000000000000000000 -1 0 1 @//depot/categories/p2/c/index@ @1.1@ 0 
+@pv@ 0 @db.revcx@ 3 @//depot/categories/p1/c/index@ 2 7 
+@dv@ 2 @db.locks@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 7 1 3 
+@dv@ 9 @db.working@ @//test-dir/categories/p1/c/index@ @//depot/categories/p1/c/index@ @test-dir@ @perforce@ 1 1 0 0 7 3 0 1 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p2/c/index@ 
+@pv@ 2 @db.have@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ 3 0 
+@pv@ 9 @db.rev@ @//depot/categories/p2/c/index@ 3 0 8 3 1332516465 1332516397 D41D8CD98F00B204E9800998ECF8427E 0 0 1 @//depot/categories/p2/c/index@ @1.1@ 0 
+@pv@ 9 @db.revhx@ @//depot/categories/p2/c/index@ 3 0 8 3 1332516465 1332516397 D41D8CD98F00B204E9800998ECF8427E 0 0 1 @//depot/categories/p2/c/index@ @1.1@ 0 
+@dv@ 9 @db.revdx@ @//depot/categories/p2/c/index@ 3 0 8 3 1332516465 1332516397 D41D8CD98F00B204E9800998ECF8427E 0 0 1 @//depot/categories/p2/c/index@ @1.1@ 0 
+@pv@ 0 @db.revcx@ 3 @//depot/categories/p2/c/index@ 3 8 
+@dv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 8 1 3 
+@dv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 1 1 0 0 8 3 0 1 D41D8CD98F00B204E9800998ECF8427E -1 0 0 0 @//depot/categories/p1/c/index@ 
+@rv@ 0 @db.archmap@ @//depot/categories/p1/...@ @//depot/categories/p2/...@ 
+@ex@ 14099 1332516465
+@pv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 3 3 0 0 1 0 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 
+@pv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 1 0 0 
+@ex@ 14101 1332516478
+@pv@ 1 @db.resolve@ @//test-dir/categories/c/index@ @//depot/categories/p2/c/index@ 0 3 0 0 14 2 @//depot/categories/p2/c/index@ 1 
+@rv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 3 3 0 0 7 0 0 0 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 7 0 0 
+@pv@ 9 @db.working@ @//test-dir/categories/c/index@ @//depot/categories/c/index@ @test-dir@ @perforce@ 3 1 0 0 8 0 0 0 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p2/c/index@ 
+@pv@ 2 @db.locks@ @//depot/categories/c/index@ @test-dir@ @perforce@ 8 0 0 
+@ex@ 14103 1332516478
+@rv@ 1 @db.counters@ @change@ @4@ 
+@pv@ 2 @db.change@ 4 4 @test-dir@ @perforce@ 1332516478 0 @@ @@ 
+@pv@ 0 @db.desc@ 4 @@ 
+@pv@ 2 @db.changex@ 4 4 @test-dir@ @perforce@ 1332516478 0 @@ @@ 
+@rv@ 9 @db.working@ @//test-dir/categories/c/index@ @//depot/categories/c/index@ @test-dir@ @perforce@ 3 1 0 0 8 4 0 0 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p2/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/c/index@ @test-dir@ @perforce@ 8 0 4 
+@rv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 3 3 0 0 7 4 0 0 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 7 0 4 
+@ex@ 14105 1332516478
+@rv@ 9 @db.working@ @//test-dir/categories/c/index@ @//depot/categories/c/index@ @test-dir@ @perforce@ 3 1 0 0 8 4 0 1 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p2/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/c/index@ @test-dir@ @perforce@ 8 1 4 
+@rv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 3 3 0 0 7 4 0 1 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 7 1 4 
+@ex@ 14105 1332516478
+@rv@ 9 @db.working@ @//test-dir/categories/c/index@ @//depot/categories/c/index@ @test-dir@ @perforce@ 3 1 0 0 8 4 0 1 D41D8CD98F00B204E9800998ECF8427E -1 0 0 0 @//depot/categories/p2/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/c/index@ @test-dir@ @perforce@ 8 1 4 
+@ex@ 14105 1332516478
+@pv@ 0 @db.integed@ @//depot/categories/c/index@ @//depot/categories/p2/c/index@ 0 3 0 1 14 4 
+@pv@ 0 @db.integed@ @//depot/categories/p2/c/index@ @//depot/categories/c/index@ 0 1 0 3 15 4 
+@dv@ 1 @db.resolve@ @//test-dir/categories/c/index@ @//depot/categories/p2/c/index@ 0 3 0 0 14 2 @//depot/categories/p2/c/index@ 1 
+@dv@ 2 @db.changex@ 4 4 @test-dir@ @perforce@ 1332516478 1 @@ @//depot/categories/...@ 
+@rv@ 2 @db.change@ 4 4 @test-dir@ @perforce@ 1332516478 1 @@ @//depot/categories/...@ 
+@pv@ 2 @db.have@ @//test-dir/categories/c/index@ @//depot/categories/c/index@ 1 0 
+@pv@ 9 @db.rev@ @//depot/categories/c/index@ 1 0 8 4 1332516478 1332516397 D41D8CD98F00B204E9800998ECF8427E 0 0 1 @//depot/categories/p2/c/index@ @1.1@ 0 
+@pv@ 9 @db.revhx@ @//depot/categories/c/index@ 1 0 8 4 1332516478 1332516397 D41D8CD98F00B204E9800998ECF8427E 0 0 1 @//depot/categories/p2/c/index@ @1.1@ 0 
+@pv@ 0 @db.revcx@ 4 @//depot/categories/c/index@ 1 8 
+@dv@ 2 @db.locks@ @//depot/categories/c/index@ @test-dir@ @perforce@ 8 1 4 
+@dv@ 9 @db.working@ @//test-dir/categories/c/index@ @//depot/categories/c/index@ @test-dir@ @perforce@ 3 1 0 0 8 4 0 1 D41D8CD98F00B204E9800998ECF8427E -1 0 0 0 @//depot/categories/p2/c/index@ 
+@dv@ 2 @db.have@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ 4 0 
+@pv@ 9 @db.rev@ @//depot/categories/p2/c/index@ 4 0 7 4 1332516478 0 00000000000000000000000000000000 -1 0 1 @//depot/categories/p2/c/index@ @1.1@ 0 
+@dv@ 9 @db.revhx@ @//depot/categories/p2/c/index@ 4 0 7 4 1332516478 0 00000000000000000000000000000000 -1 0 1 @//depot/categories/p2/c/index@ @1.1@ 0 
+@pv@ 9 @db.revdx@ @//depot/categories/p2/c/index@ 4 0 7 4 1332516478 0 00000000000000000000000000000000 -1 0 1 @//depot/categories/p2/c/index@ @1.1@ 0 
+@pv@ 0 @db.revcx@ 4 @//depot/categories/p2/c/index@ 4 7 
+@dv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 7 1 4 
+@dv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 3 3 0 0 7 4 0 1 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/c/index@ 
+@pv@ 0 @db.archmap@ @//depot/categories/...@ @//depot/categories/p2/...@ 
+@ex@ 14105 1332516478
+@pv@ 9 @db.working@ @//test-dir/categories/c/index@ @//depot/categories/c/index@ @test-dir@ @perforce@ 1 1 0 0 1 0 0 0 00000000000000000000000000000000 -1 0 0 0 @@ 
+@pv@ 2 @db.locks@ @//depot/categories/c/index@ @test-dir@ @perforce@ 1 0 0 
+@ex@ 14107 1332516493
+@pv@ 1 @db.resolve@ @//test-dir/categories/p2/c/index@ @//depot/categories/c/index@ 0 1 0 0 14 2 @//depot/categories/c/index@ 1 
+@rv@ 9 @db.working@ @//test-dir/categories/c/index@ @//depot/categories/c/index@ @test-dir@ @perforce@ 1 1 0 0 7 0 0 0 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/p2/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/c/index@ @test-dir@ @perforce@ 7 0 0 
+@pv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 1 1 0 0 8 0 0 0 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/c/index@ 
+@pv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 8 0 0 
+@ex@ 14109 1332516493
+@pv@ 1 @db.resolve@ @//test-dir/categories/p2/c/index@ @//depot/categories/c/index@ 1 3 0 0 6 1 @//depot/categories/c/index@ 1 
+@ex@ 14111 1332516493
+@rv@ 9 @db.working@ @//test-dir/categories/p2/c/index@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 3 3 0 0 8 0 0 0 00000000000000000000000000000000 -1 0 0 0 @//depot/categories/c/index@ 
+@rv@ 2 @db.locks@ @//depot/categories/p2/c/index@ @test-dir@ @perforce@ 8 0 0 
+@ex@ 14111 1332516493
+@nx@ 8 1333394359 @32@ 0 0 0 0 0 @2222@ @@ @@ @@ @@ 
+@ex@ 14065 1333394359

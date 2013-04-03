@@ -1,0 +1,15 @@
+<html>
+<head>
+   <title>Installed!</title>
+   <script src="dojo-release-1.5.0/dojo/dojo.js"></script>
+</head>
+<body>
+   <h1 id='hello'>Hello, Dojo</h1>
+<script>
+dojo.require('dojo.fx');
+var anim1 = dojo.fadeOut({node:"hello"});
+var anim2 = dojo.fadeIn({node:"hello"});
+dojo.fx.combine([anim1, anim2]).play();
+</script>
+</body>
+</html>

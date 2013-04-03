@@ -1,0 +1,16 @@
+Manual of pdfscreen.sty v.1.2
+C. V. Radhakrishnan
+cvr@river-valley.com
+
+April 28, 2000
+Abstract pdfscreen.sty package helps to redesign the pdf output of your normal documents ﬁt to be read in a computer monitor while retaining the freedom to format it for coventional printing. This has been brought about by redeﬁning the margins and page height/width and related dimension to ﬁt the dimensions of the computer screen. By changing the options to print you can switch the package to format the document in the conventional way as your class ﬁle dictates.
+Home Page Title Page Contents
+
+Page 1 of 1
+
+1. Setup
+An elaborative manual is not needed for using pdfscreen.sty, since it is nothing but an extension of the hyperref.sty of Sebastian Rahtz.
+
+Go Back Full Screen Close Quit
+
+

@@ -1,0 +1,30 @@
+benchmark: browse
+args: runme
+testInfo:
+        rcsChange: 346005
+        rcsDate: 2011/08/22
+versions:
+        p4d: P4D/LINUX26X86_64/2011.1/397313 (2012/01/04)
+uname: "Linux warp 2.6.32.49-0.3-default #1 SMP 2011-12-02 11:28:04 +0100 x86_64 x86_64 x86_64 GNU/Linux"
+checkpointName: reference01.2011.1.ckp.gz
+checkpointReplay: 1708
+runme:
+        1:
+                maxDirsSecond: 10475
+                maxDirsTimestamp: 2012/01/25 17:41:54
+                maxDirsConcurrent: 26
+                totalChildren: 64
+                totalHosts: 2
+                totalSeconds: 420
+                concurrentChildren: 32
+                concurrentFrom: 2012/02/17 10:21:33
+                concurrentTo: 2012/02/17 10:25:13
+                maxFstatSecond: 3126
+                maxFstatTimestamp: 2012/02/17 10:25:22
+                maxFstatConcurrent: 17
+                maxFilelogSecond: 287
+                maxFilelogTimestamp: 2012/02/17 10:25:22
+                maxFilelogConcurrent: 17
+                totalBrowses: 65536
+                uniquePaths: 65459
+
